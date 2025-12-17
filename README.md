@@ -121,6 +121,6 @@ The system includes a bank of NLP topics:
 ## 🌐 Live Demo
 
 You can try the app here:  
-👉 [Demo]()
+👉 [Demo](https://learningnlpagent.streamlit.app/)
 
-![Demo GIF]()
+![demo.gif](demo/demo.gif)![](demo)
