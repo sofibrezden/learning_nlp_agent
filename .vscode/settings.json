@@ -1,0 +1,44 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "ruff.enable": true,
+    "ruff.formatOnSave": true,
+    "files.exclude": {
+        "**/.venv": true,
+        "**/.pdm-build": true,
+        "**/__pycache__": true,
+        "**/.git": true
+    },
+    "search.exclude": {
+        "./data/**": true,
+        "**/.venv": true,
+        "**/.pdm-build": true,
+        "**/__pycache__": true,
+        "**/.git": true
+    },
+    "files.watcherExclude": {
+        "**/data/**": true,
+        "**/.venv": true,
+        "**/.pdm-build": true,
+        "**/__pycache__": true,
+        "**/.git": true
+    },
+    "python.analysis.exclude": [
+        "**/data"
+    ],
+    "cursorRetriever.exclude": [
+        "**/data/**"
+    ],
+    "ruff.lint.exclude": [
+        "**/data/**"
+    ],
+    "files.associations": {
+        "data/**": "plaintext"
+    }
+}

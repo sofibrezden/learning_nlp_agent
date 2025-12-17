@@ -7,7 +7,7 @@ from openai import OpenAI
 
 from tools import iso_now, tool_router
 
-TOOLS = json.loads(Path("tools.json").read_text(encoding="utf-8"))
+TOOLS = json.loads(Path("data/tools.json").read_text(encoding="utf-8"))
 SYSTEM_INSTRUCTIONS = Path("prompt.txt").read_text(encoding="utf-8").strip()
 
 
