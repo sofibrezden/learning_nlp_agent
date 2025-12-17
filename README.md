@@ -82,10 +82,10 @@ streamlit run app.py
 lab7/
 ├── app.py              # Main Streamlit application
 ├── tools.py            # Exam management tools and logic
-├── tools.json          # OpenAI function definitions
 ├── prompt.txt          # System instructions for the AI examiner
 ├── data/
 │   ├── students.json   # Student registry
+│   └── tools.json      # OpenAI function definitions
 ├── pyproject.toml      # Project configuration and dependencies
 └── README.md           # This file
 ```
