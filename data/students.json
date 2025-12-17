@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Test Student",
+    "email": "student@example.com"
+  },
+  {
+    "name": "Andrii Kovalenko",
+    "email": "andrii.kovalenko@gmail.com"
+  },
+  {
+    "name": "Olena Shevchenko",
+    "email": "olena.shevchenko@gmail.com"
+  },
+  {
+    "name": "Dmytro Petrenko",
+    "email": "dmytro.petrenko@gmail.com"
+  },
+  {
+    "name": "Iryna Melnyk",
+    "email": "iryna.melnyk@gmail.com"
+  },
+  {
+    "name": "Bohdan Koval",
+    "email": "bohdan.koval@gmail.com"
+  },
+  {
+    "name": "Maria Tkachenko",
+    "email": "maria.tkachenko@gmail.com"
+  },
+  {
+    "name": "Yaroslav Bondar",
+    "email": "yaroslav.bondar@gmail.com"
+  },
+  {
+    "name": "Kateryna Hnatyuk",
+    "email": "kateryna.hnatyuk@gmail.com"
+  },
+  {
+    "name": "Roman Danyliuk",
+    "email": "roman.danyliuk@gmail.com"
+  }
+]

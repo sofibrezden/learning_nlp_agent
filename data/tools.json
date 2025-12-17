@@ -1,0 +1,54 @@
+[{
+    "type": "function",
+    "name": "start_exam",
+    "description": "Start exam for a student. Validates student against registry and returns 2-3 random topics.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {"type": "string"},
+            "name": {"type": "string"}
+        },
+        "required": ["email", "name"],
+        "additionalProperties": false
+    },
+    "strict": true
+},
+{
+    "type": "function",
+    "name": "get_next_topic",
+    "description": "Get next topic for the exam (no args). Returns done=true when topics are exhausted.",
+    "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+    },
+    "strict": true
+},
+{
+    "type": "function",
+    "name": "end_exam",
+    "description": "Finish exam and persist score + history.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "email": {"type": "string"},
+            "score": {"type": "number"},
+            "history": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "role": {"type": "string"},
+                        "content": {"type": "string"},
+                        "datetime": {"type": "string"}
+                    },
+                    "required": ["role", "content", "datetime"],
+                    "additionalProperties": false
+                }
+            }
+        },
+        "required": ["email", "score"],
+        "additionalProperties": false
+    }
+}]
